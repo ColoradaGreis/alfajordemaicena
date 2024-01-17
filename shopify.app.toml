@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "Alfajor de maicena"
+client_id = "8c142285d3d5ebe434ae7d1c61ef920e"
+application_url = "https://liked-medical-appearing-float.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://liked-medical-appearing-float.trycloudflare.com/auth/callback",
+  "https://liked-medical-appearing-float.trycloudflare.com/auth/shopify/callback",
+  "https://liked-medical-appearing-float.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-01"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "alfajordemaicena.myshopify.com"
