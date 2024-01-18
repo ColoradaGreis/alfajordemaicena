@@ -7,7 +7,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = "postgresql://postgresql:admin@localhost:5432/alfajor"
+  url      = "postgresql://postgres:admin@localhost:5432/alfajor"
 }
 
 model Session {
@@ -19,4 +19,16 @@ model Session {
   expires     DateTime?
   accessToken String
   userId      BigInt?
+}
+
+model QRCode {
+  id               Int      @id @default(autoincrement())
+  title            String
+  shop             String
+  productId        String
+  productHandle    String
+  productVariantId String
+  destination      String
+  scans            Int      @default(0)
+  createdAt  DateTime   @default(now())
 }
