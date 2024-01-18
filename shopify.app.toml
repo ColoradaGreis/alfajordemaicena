@@ -2,7 +2,7 @@
 
 name = "Alfajor de maicena"
 client_id = "8c142285d3d5ebe434ae7d1c61ef920e"
-application_url = "https://liver-concerned-granted-robust.trycloudflare.com"
+application_url = "https://insertion-resources-dietary-pmid.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://liver-concerned-granted-robust.trycloudflare.com/auth/callback",
-  "https://liver-concerned-granted-robust.trycloudflare.com/auth/shopify/callback",
-  "https://liver-concerned-granted-robust.trycloudflare.com/api/auth/callback"
+  "https://insertion-resources-dietary-pmid.trycloudflare.com/auth/callback",
+  "https://insertion-resources-dietary-pmid.trycloudflare.com/auth/shopify/callback",
+  "https://insertion-resources-dietary-pmid.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
